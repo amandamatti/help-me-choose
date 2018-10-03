@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 2000px;
+  height: 100vh;
   background-color: #EAEBED; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #EAEBED, #B2B4BB);
   margin-top: 140px;
@@ -24,25 +24,33 @@ p {
   font-family: 'Kite One', sans-serif;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .inputSection {
   margin: 30px 0px 10px 0px;
   width: 400px;
+  display: flex;
+  flex-direction: row;
 }
 
 .inputs {
-  width: inherit;
+/*  width: inherit;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; */
 }
 
 input {
   margin-top: 10px;
   padding: 10px;
   font-family: 'Kite One', sans-serif;
+  font-size: 16px;
   padding-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: none;
   border-radius: 50px;
+  width: 255px;
 }
 
 button {
@@ -53,22 +61,19 @@ button {
 }
 
 .addOption {
-  margin-top: 20px;
+  margin: 10px 0 0 5px;
   background-color: #F2F336;
   border: none;
   width: 100px;
+  height: 44px;
   text-align: center;
   font-size: 16px;
-  padding: 10px 20px;
-}
+  padding: 10px 35px;
 
-.goButton {
-  margin: 0px 0px 10px 0px;
-  width: 400px;
 }
 
 .go {
-  margin: 10px 0px 40px 0px;
+  margin: 50px 0px 40px 0px;
   width: 100px;
   background-color: #8CC570;
   border: none;
@@ -77,10 +82,16 @@ button {
   padding: 10px 20px;
 }
 
-footer {
-  margin-top: 150px;
+img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.img {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 100px;
 }
