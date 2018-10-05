@@ -30,18 +30,3 @@ $(function() {
   }
   $('.go').click(submit);
 });
-
-//Vid klick på rubriken byts färgen
-//Klura mer på denna senare
-/*
-$(".clickhere").click(function() {
-  $(this).toggleClass("color");
-});
-*/
-
-/*BONUS
-När resultatet visas, byt ut rubriken från "Help me choose between.."
-till "The winner is:"
-Använd en if-sats för att se till att en input-text bara läggs till
-options-listan om det finns någon text i det, dvs om värdet inte
-är "" (tom sträng)
