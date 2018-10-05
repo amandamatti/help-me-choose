@@ -9,7 +9,6 @@ body {
   /*height: 100vh; */
   background-color: #EAEBED; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #EAEBED, #B2B4BB);
-  margin-top: 140px;
 }
 
 h1 {
